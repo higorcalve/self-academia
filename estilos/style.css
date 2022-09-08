@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header , menu , li {
+    display: inline-block;
+    width: 100vw;
+}
+
+#logoself {
+    width: 50px;
+}
+
+header {
+    background-color: blue;
+}
