@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+body , html {
     background-color: lightblue;
 }
 
@@ -35,14 +35,45 @@ header > a {
     text-align: center;
     font-weight: bold;
     font-size: 0.8em;
-    background-color: rgba(0, 0, 0, 0.500);
+    background-color: rgba(3, 209, 255, 0.500);
     border-radius: 5px;
     color: white;
-    padding: 3px;
-    margin: 1.2px;
+    padding: 5px;
+    margin: 2px 10px 2px 10px;
 }
 
 #menusuperior a {
     text-decoration: none;
     color: white;
+}
+
+section {
+    width: 90vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    max-width: 768px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+}
+
+footer iframe {
+    width: 95%;
+
 }
